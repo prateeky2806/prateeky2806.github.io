@@ -22,17 +22,16 @@
 
   /* ---- Trigger Setup ---- */
   function initTriggers() {
-    document.querySelectorAll('.email-trigger').forEach(function (el) {
-      el.addEventListener('click', function (e) {
-        e.preventDefault();
-        activatePuzzle();
-        // Scroll to puzzle area
-        var puzzleSection = document.getElementById('emailPuzzle');
-        if (puzzleSection) {
-          var top = puzzleSection.getBoundingClientRect().top + window.pageYOffset - 80;
-          window.scrollTo({ top: top, behavior: 'smooth' });
-        }
-      });
+    document.body.addEventListener('click', function (e) {
+      var trigger = e.target.closest('.email-trigger');
+      if (!trigger) return;
+      e.preventDefault();
+      activatePuzzle();
+      var puzzleSection = document.getElementById('emailPuzzle');
+      if (puzzleSection) {
+        var top = puzzleSection.getBoundingClientRect().top + window.pageYOffset - 80;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
     });
   }
 
@@ -141,11 +140,14 @@
      PUZZLE 2: Wipe — Canvas scratch-to-reveal
      ============================================================ */
   function initWipePuzzle(container) {
+    var containerWidth = container.clientWidth || 320;
+    var canvasWidth = Math.min(320, containerWidth - 16);
+
     container.innerHTML =
       '<p class="wipe-instruction">$ decrypt email --mode=scratch</p>' +
       '<div class="wipe-container">' +
         '<span class="wipe-text">' + fullEmail + '</span>' +
-        '<canvas id="wipeCanvas" width="320" height="60"></canvas>' +
+        '<canvas id="wipeCanvas" width="' + canvasWidth + '" height="60"></canvas>' +
       '</div>';
 
     var canvas = document.getElementById('wipeCanvas');
