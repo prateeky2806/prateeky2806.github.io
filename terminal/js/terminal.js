@@ -48,13 +48,13 @@
         currentText += line[charIndex];
         textEl.textContent = currentText + '_';
         charIndex++;
-        setTimeout(typeNext, 12 + Math.random() * 8);
+        setTimeout(typeNext, 12);
       } else {
         currentText += '\n';
         textEl.textContent = currentText + '_';
         lineIndex++;
         charIndex = 0;
-        setTimeout(typeNext, 80 + Math.random() * 60);
+        setTimeout(typeNext, 80);
       }
     }
 
