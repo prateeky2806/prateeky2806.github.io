@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prateek Yadav — ML Researcher</title>
+  <meta name="description" content="Prateek Yadav — ML Researcher at Meta working on pre-training, RL, modular models, and model merging." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=VT323&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+
+  <!-- Terminal CSS -->
+  <link rel="stylesheet" href="css/terminal.css" />
+</head>
+<body>
+
+  <!-- ===== Boot Sequence Overlay ===== -->
+  <div id="bootOverlay" class="boot-overlay">
+    <div class="boot-text" id="bootText"></div>
+  </div>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-name"></h1>
+          <p class="hero-tagline"></p>
+        </div>
+        <div class="hero-photo-wrapper">
+          <img id="heroPhoto" src="" alt="Prateek Yadav" class="hero-photo" />
+        </div>
+      </div>
+
+      <div class="hero-social">
+        <span class="prompt-text">$ links --social</span>
+        <div class="social-links"></div>
+      </div>
+
+      <!-- Email Puzzle Area -->
+      <div id="emailPuzzle" class="email-puzzle-section">
+        <div id="puzzleArea" class="puzzle-area"></div>
+        <div id="puzzleResult" class="puzzle-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sticky Navbar ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="container nav-container">
+      <span class="nav-prompt">prateek@web:~$</span>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link" data-section="about">[about]</a>
+        <a href="#career" class="nav-link" data-section="career">[career]</a>
+        <a href="#publications" class="nav-link" data-section="publications">[publications]</a>
+        <a href="#news" class="nav-link" data-section="news">[news]</a>
+        <a href="#contact" class="nav-link" data-section="contact">[contact]</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile dropdown -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="nav-link" data-section="about">[about]</a>
+      <a href="#career" class="nav-link" data-section="career">[career]</a>
+      <a href="#publications" class="nav-link" data-section="publications">[publications]</a>
+      <a href="#news" class="nav-link" data-section="news">[news]</a>
+      <a href="#contact" class="nav-link" data-section="contact">[contact]</a>
+    </div>
+  </nav>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">about.txt</span>
+        </div>
+        <div class="terminal-body">
+          <h2 class="section-header">$ cat about.txt</h2>
+          <div class="about-text"></div>
+
+          <div class="research-tags"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Career Section ===== -->
+  <section id="career" class="section reveal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">career/</span>
+        </div>
+        <div class="terminal-body">
+          <h2 class="section-header">$ ls -la career/</h2>
+          <div class="career-table"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Publications Section ===== -->
+  <section id="publications" class="section reveal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">publications/</span>
+        </div>
+        <div class="terminal-body">
+          <h2 class="section-header">$ ls -la publications/</h2>
+
+          <div class="pub-filters">
+            <div class="filter-group">
+              <label for="yearFilter">year:</label>
+              <select id="yearFilter" class="terminal-select">
+                <option value="all">all</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="venueFilter">venue:</label>
+              <select id="venueFilter" class="terminal-select">
+                <option value="all">all</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="searchFilter">grep:</label>
+              <input type="text" id="searchFilter" class="terminal-input" placeholder="search..." />
+            </div>
+          </div>
+
+          <div id="pubList" class="pub-list"></div>
+
+          <button id="showMorePubs" class="show-more-btn">[show more...]</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== News Section ===== -->
+  <section id="news" class="section reveal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">news.log</span>
+        </div>
+        <div class="terminal-body">
+          <h2 class="section-header">$ tail -n 5 news.log</h2>
+
+          <div id="newsList" class="news-list"></div>
+
+          <button id="showMoreNews" class="show-more-btn">[show more...]</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">links.txt</span>
+        </div>
+        <div class="terminal-body">
+          <h2 class="section-header">$ cat links.txt</h2>
+
+          <div class="contact-grid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Prateek Yadav | Built with &lt;html/&gt;, {css}, and js()</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/terminal.js"></script>
+  <script src="js/email-puzzle.js"></script>
+</body>
+</html>

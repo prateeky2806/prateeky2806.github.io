@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prateek Yadav — ML Researcher</title>
+  <meta name="description" content="Prateek Yadav — ML Researcher at Meta working on pre-training, RL, modular models, and model merging." />
+</head>
+<body>
+  <script>
+    (function () {
+      var designs = ['space', 'terminal'];
+      var pick = sessionStorage.getItem('design');
+      if (!pick) {
+        pick = designs[Math.floor(Math.random() * designs.length)];
+        sessionStorage.setItem('design', pick);
+      }
+      window.location.replace(pick + '/');
+    })();
+  </script>
+</body>
+</html>
