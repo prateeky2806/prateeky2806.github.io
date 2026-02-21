@@ -21,6 +21,10 @@ npx serve .
 
 ## Git Workflow & Checkpointing
 
+### Commit messages
+
+**Never include "Claude", "Co-Authored-By", or any AI attribution in commit messages.** Commit messages should read as if written by the developer — no AI credits, signatures, or co-author tags.
+
 ### Commit frequently, clean up at the end
 
 When working on a feature or building a branch, **commit after every meaningful change** (file created, section completed, bug fixed) to avoid losing work. Use descriptive messages prefixed with `wip:`:
@@ -105,16 +109,6 @@ The root `index.html` randomly redirects visitors to one of two designs:
 ```
 
 Both designs fetch shared data from `../data/` (relative to their subdirectory).
-
-### Design branches
-
-Each design also has its own standalone branch for isolated development:
-
-- **space** — Interactive constellation/space design (standalone)
-- **terminal** — Terminal/hacker aesthetic (standalone)
-- **neo-modern** — Glassmorphism + gradient design (standalone)
-
-These branches have the design at the root level (not in subdirectories) with paths like `data/publications.json`. To update the deployed site, copy changes into the corresponding subdirectory on `deploy`.
 
 ### Shared content
 
