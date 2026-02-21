@@ -1,0 +1,162 @@
+[
+  {
+    "date": "2024-01-17",
+    "content": "Two papers accepted at ICLR 2024 (D2-Pruning as poster and MC-MoE as a Spotlight)!",
+    "links": [
+      {"text": "D2-Pruning", "url": "https://arxiv.org/abs/2310.07931"},
+      {"text": "MC-MoE", "url": "https://arxiv.org/abs/2310.01334"}
+    ]
+  },
+  {
+    "date": "2023-11-23",
+    "content": "New preprint: ComPEFT: Compression for Communicating Parameter Efficient Updates via Sparsification and Quantization is out!",
+    "links": [
+      {"text": "ComPEFT", "url": "https://arxiv.org/abs/2311.13171"},
+      {"text": "Code", "url": "https://github.com/prateeky2806/compeft"}
+    ]
+  },
+  {
+    "date": "2023-09-21",
+    "content": "Two papers accepted at NeurIPS 2023: TIES-Merging and SeViLA!",
+    "links": [
+      {"text": "TIES-Merging", "url": "https://arxiv.org/abs/2306.01708"},
+      {"text": "SeViLA", "url": "https://arxiv.org/abs/2305.06988"}
+    ]
+  },
+  {
+    "date": "2023-09-21",
+    "content": "Two new preprints are out! D2 Pruning and MC-MoE.",
+    "links": [
+      {"text": "D2 Pruning", "url": "https://arxiv.org/abs/2310.07931"},
+      {"text": "MC-MoE", "url": "https://arxiv.org/abs/2310.01334"}
+    ]
+  },
+  {
+    "date": "2023-06-04",
+    "content": "New preprint on Resolving Interference When Merging Models.",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2306.01708"}
+    ]
+  },
+  {
+    "date": "2023-05-23",
+    "content": "Started my Internship at Microsoft Research Redmond.",
+    "links": []
+  },
+  {
+    "date": "2023-05-23",
+    "content": "Paper on Exclusive Supermask Subnetwork Training for Continual Learning accepted at ACL Findings 2023.",
+    "links": [
+      {"text": "Paper", "url": "https://aclanthology.org/2023.findings-acl.36.pdf"}
+    ]
+  },
+  {
+    "date": "2023-05-23",
+    "content": "Paper on Exploring Continual Learning for Code Generation Models accepted at ACL 2023.",
+    "links": [
+      {"text": "Paper", "url": "https://aclanthology.org/2023.acl-short.68.pdf"}
+    ]
+  },
+  {
+    "date": "2023-05-11",
+    "content": "New preprint on Self-Chained Image-Language Model for Video Localization and Question Answering is out!",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2305.06988"}
+    ]
+  },
+  {
+    "date": "2022-11-04",
+    "content": "Serving on the program committee of Graphs and More Complex Structures for Learning and Reasoning at AAAI 2023.",
+    "links": []
+  },
+  {
+    "date": "2022-10-26",
+    "content": "Awarded the Amazon Science - Post Internship Fellowship!",
+    "links": []
+  },
+  {
+    "date": "2022-10-18",
+    "content": "Pre-print for Exclusive Supermask Subnetwork Training for Continual Learning is now available!",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2210.10209"}
+    ]
+  },
+  {
+    "date": "2022-10-10",
+    "content": "Serving on the program committee of Transfer Learning for NLP Workshop 2022 at NeurIPS 2022.",
+    "links": []
+  },
+  {
+    "date": "2022-04-11",
+    "content": "New paper on Contrastive Learning for Explanation Graph Generation accepted at ACL 2022.",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2204.04813"}
+    ]
+  },
+  {
+    "date": "2022-02-21",
+    "content": "Pre-print for Low-Cost Algorithmic Recourse for Users With Uncertain Cost Functions is now available!",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2111.01235"}
+    ]
+  },
+  {
+    "date": "2021-08-28",
+    "content": "ExplaGraphs accepted at EMNLP 2021.",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2106.01354"}
+    ]
+  },
+  {
+    "date": "2021-03-10",
+    "content": "multiPRover accepted at NAACL 2021.",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/2104.07644"}
+    ]
+  },
+  {
+    "date": "2021-01-23",
+    "content": "Pre-print for Discrete Time Latent Hawkes Processes for Modeling Multidimensional Temporal Event Streams is now available!",
+    "links": []
+  },
+  {
+    "date": "2020-11-27",
+    "content": "Paper on Rank Refinement accepted at GCLR workshop at AAAI 2020.",
+    "links": []
+  },
+  {
+    "date": "2020-09-21",
+    "content": "NHP: Neural Hypergraph Link Prediction accepted at CIKM 2020.",
+    "links": [
+      {"text": "Paper", "url": "https://dl.acm.org/doi/abs/10.1145/3340531.3411870"}
+    ]
+  },
+  {
+    "date": "2019-09-03",
+    "content": "HyperGCN accepted at NeurIPS 2019.",
+    "links": [
+      {"text": "Paper", "url": "https://arxiv.org/abs/1809.02589"}
+    ]
+  },
+  {
+    "date": "2019-05-14",
+    "content": "Paper on Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks accepted at ACL 2019.",
+    "links": [
+      {"text": "Paper", "url": "https://www.aclweb.org/anthology/P19-1320"}
+    ]
+  },
+  {
+    "date": "2018-12-22",
+    "content": "Lovasz Convolutional Networks accepted at AISTATS 2019.",
+    "links": [
+      {"text": "Paper", "url": "http://proceedings.mlr.press/v89/yadav19a.html"}
+    ]
+  },
+  {
+    "date": "2018-12-22",
+    "content": "Confidence-based Graph Convolutional Networks for Semi-Supervised Learning accepted at AISTATS 2019.",
+    "links": [
+      {"text": "Paper", "url": "http://proceedings.mlr.press/v89/vashishth19a.html"}
+    ]
+  }
+]
