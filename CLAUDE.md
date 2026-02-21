@@ -69,12 +69,12 @@ Resume from the last checkpoint — read the existing files to understand what's
 deploy (staging) → main (live site) → GitHub Pages
 ```
 
-- **main** — Live production site served by GitHub Pages. Only merge into this branch when changes are tested and ready.
-- **deploy** — Staging branch. Make changes here, test locally, then merge to main and push.
+- **main** — Live production site served by GitHub Pages. **NEVER commit directly to main.** Only update via merge from deploy.
+- **deploy** — Staging branch. **ALL changes go here first.** Test locally, then merge to main only when the user explicitly asks.
 
 Workflow:
 ```bash
-# 1. Work on deploy branch
+# 1. Always work on deploy branch
 git checkout deploy
 
 # 2. Make changes, commit
@@ -82,13 +82,15 @@ git checkout deploy
 # 3. Test locally
 python3 -m http.server 8000
 
-# 4. When ready, merge to main and push
+# 4. ONLY when user asks to deploy/push to production:
 git checkout main
 git merge deploy
 git push origin main
 
 # 5. GitHub Pages auto-deploys from main
 ```
+
+**Important:** Do NOT merge deploy into main or push to main unless the user explicitly requests it. The user will decide when changes are ready to go live.
 
 ### Site structure (on main/deploy)
 

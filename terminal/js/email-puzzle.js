@@ -60,6 +60,9 @@
 
   /* ---- Result Display ---- */
   function showResult() {
+    var area = document.getElementById('puzzleArea');
+    if (area) area.style.display = 'none';
+
     var resultEl = document.getElementById('puzzleResult');
     if (!resultEl) return;
 
@@ -284,7 +287,7 @@
       btn.classList.add('active');
 
       interval = setInterval(function () {
-        progress += 0.3;
+        progress += 0.7;
         var revealed = Math.floor(progress);
 
         bar.style.width = (progress / fullEmail.length * 100) + '%';
