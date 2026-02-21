@@ -394,6 +394,7 @@ strong {
 .wipe-container {
   position: relative;
   display: inline-block;
+  max-width: 100%;
 }
 
 .wipe-container canvas {
@@ -986,6 +987,12 @@ strong {
 
   .social-links {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .social-links a {
+    font-size: 0.85rem;
   }
 
   .nav-links {
@@ -994,6 +1001,16 @@ strong {
 
   .hamburger {
     display: block;
+    padding: 0.75rem;
+  }
+
+  .mobile-menu .nav-link {
+    padding: 0.75rem 0;
+  }
+
+  .hero-photo {
+    width: 120px;
+    height: 120px;
   }
 
   .career-row {
@@ -1017,16 +1034,57 @@ strong {
   .terminal-select,
   .terminal-input {
     flex: 1;
+    min-height: 44px;
   }
 
   .contact-grid {
     grid-template-columns: 1fr;
   }
+
+  .email-puzzle-section {
+    width: 100%;
+  }
+
+  .show-more-btn {
+    padding: 0.6rem 1.5rem;
+    min-height: 44px;
+  }
+
+  .pub-links a {
+    padding: 0.3rem 0.6rem;
+  }
+
+  .shard-piece {
+    padding: 0.5rem 1rem;
+  }
+
+  .decrypt-btn {
+    padding: 0.75rem 2rem;
+  }
+
+  .puzzle-result .email-actions a,
+  .puzzle-result .email-actions button {
+    padding: 0.5rem 1rem;
+    min-height: 44px;
+  }
 }
 
 @media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
+  }
+
   .hero-name {
     font-size: 1.8rem;
+  }
+
+  .hero-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .social-links a {
+    font-size: 0.8rem;
   }
 
   .section-header {
@@ -1041,5 +1099,13 @@ strong {
 
   .career-date {
     font-size: 0.8rem;
+  }
+
+  .terminal-body {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
   }
 }
