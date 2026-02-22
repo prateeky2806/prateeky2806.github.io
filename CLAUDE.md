@@ -182,10 +182,3 @@ When building any design variant, the following content must be included:
 - Publication venue colors: CSS classes `.venue-neurips`, `.venue-iclr`, etc.
 - Responsive breakpoints: 768px (mobile layout), 480px (small mobile)
 
-## Old Website Reference
-
-The original Jekyll site lives at `/Users/prateek/projects/website/prateeky2806.github.com/`. Key source files if content needs updating:
-- `_bibliography/papers.bib` — BibTeX source for all publications
-- `_pages/about.md` — Bio text with collaborator links
-- `_config.yml` — Social link usernames and site metadata
-- `_news/announcement_*.md` — 24 news markdown files with dates in frontmatter
