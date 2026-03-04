@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for Prateek Yadav, an ML researcher at Meta working on pre-training, RL, modular models, and model merging. Zero-dependency vanilla HTML/CSS/JS static site deployed to GitHub Pages at `prateeky2806.github.io`. Visitors are randomly shown one of two design variants (space or terminal).
+Personal website for Prateek Yadav, a Senior Research Scientist at Google DeepMind working on Gemini, pre-training, RL, modular models, and model merging. Zero-dependency vanilla HTML/CSS/JS static site deployed to GitHub Pages at `prateeky2806.github.io`. Visitors are randomly shown one of two design variants (space or terminal).
 
 ## Development
 
@@ -143,7 +143,7 @@ All designs load content dynamically from `data/content.json` via their JS `load
 
 When building any design variant, the following content must be included:
 
-**Bio:** Works at Meta on pre-training (RL/thinking, architectures, data constraint scaling) with Mike Lewis and Sharan Narang. Previously Google DeepMind (modular post-training), PhD at UNC Chapel Hill (advisors: Colin Raffel, Mohit Bansal), MSR Redmond, Amazon AWS AI Labs, MSR India, LinkedIn AI Bangalore, IISc Bangalore (B.S. Mathematics, 2018, supervised by Partha Talukdar).
+**Bio:** Works at Google DeepMind on Gemini. Previously Meta (pre-training: RL/thinking, architectures, data constraint scaling with Mike Lewis and Sharan Narang), Google DeepMind part-time (modular post-training), PhD at UNC Chapel Hill (advisors: Colin Raffel, Mohit Bansal), MSR Redmond, Amazon AWS AI Labs, MSR India, LinkedIn AI Bangalore, IISc Bangalore (B.S. Mathematics, 2018, supervised by Partha Talukdar).
 
 **Research interests:** Pre-training, RL, Modular Models, Efficient Models, Adaptive LLMs, MoE, Model Merging
 
