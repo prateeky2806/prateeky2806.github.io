@@ -1,29 +1,111 @@
 {
   "name": "Prateek Yadav",
-  "tagline": "ML Researcher at Meta \u00b7 Pre-training, RL, Modular Models",
+  "tagline": "Senior Research Scientist at Google DeepMind \u00b7 Pre-training, RL, Modular Models",
   "about": [
-    "Hey! I work at <strong>Meta</strong> on pre-training, specifically incorporating RL/thinking in pre-training, architectures (memory, tokenizer free models), data constraint scaling with <a href=\"https://scholar.google.com/citations?user=SnQnQicAAAAJ&hl=en\" target=\"_blank\">Mike Lewis</a> and <a href=\"https://www.linkedin.com/in/sharan-narang/\" target=\"_blank\">Sharan Narang</a>.",
-    "Before this, I spent a year working part-time at <strong>Google DeepMind</strong> on modular post training methods with <a href=\"https://scholar.google.com/citations?user=fKbPy2MAAAAJ&hl=en\" target=\"_blank\">Jonathan Lai</a>, <a href=\"https://www.tsendeemts.com/\" target=\"_blank\">Tsendsuren</a>, <a href=\"https://tuvllms.github.io/\" target=\"_blank\">Tu Vu</a>, and <a href=\"https://alexandra-chron.github.io/\" target=\"_blank\">Alexandra Chronopoulou</a>.",
+    "Hey! I work at <strong>Google DeepMind</strong> on Gemini.",
+    "Before this, I was doing pre-training at <strong>Meta</strong>, specifically incorporating RL/thinking in pre-training, architectures, and data constraint scaling (looping/pausing) with <a href=\"https://scholar.google.com/citations?user=SnQnQicAAAAJ&hl=en\" target=\"_blank\">Mike Lewis</a> and <a href=\"https://www.linkedin.com/in/sharan-narang/\" target=\"_blank\">Sharan Narang</a>. I also spent a year working part-time at <strong>Google DeepMind</strong> on modular post training methods with <a href=\"https://scholar.google.com/citations?user=fKbPy2MAAAAJ&hl=en\" target=\"_blank\">Jonathan Lai</a>, <a href=\"https://www.tsendeemts.com/\" target=\"_blank\">Tsendsuren</a>, <a href=\"https://tuvllms.github.io/\" target=\"_blank\">Tu Vu</a>, and <a href=\"https://alexandra-chron.github.io/\" target=\"_blank\">Alexandra Chronopoulou</a>.",
     "I finished my PhD at <strong>UNC Chapel Hill</strong> advised by <a href=\"https://colinraffel.com/\" target=\"_blank\">Colin Raffel</a> and <a href=\"https://www.cs.unc.edu/~mbansal/\" target=\"_blank\">Prof. Mohit Bansal</a>.",
     "Previously, I have worked at <a href=\"https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/\" target=\"_blank\">Microsoft Research Redmond</a> with <a href=\"https://www.linkedin.com/in/subho87/\" target=\"_blank\">Subhabrata Mukherjee</a>, <a href=\"https://scholar.google.com/citations?user=sNGk-9MAAAAJ&hl=en\" target=\"_blank\">Ahmed H. Awadallah</a>, and <a href=\"https://www.amazon.science/\" target=\"_blank\">Amazon AWS AI Labs</a> with <a href=\"https://www.linkedin.com/in/qing-sun-2524a865/\" target=\"_blank\">Qing Sun</a>. Before my PhD, I also worked at <a href=\"https://www.microsoft.com/en-us/research/lab/microsoft-research-india/\" target=\"_blank\">Microsoft Research India</a> with <a href=\"https://www.prateekjain.org\" target=\"_blank\">Dr. Prateek Jain</a>. I also worked full-time for a year with some amazing people at <strong>LinkedIn AI Bangalore</strong>. Before all this, I completed my undergraduate degree in pure mathematics in 2018 from <strong>IISc Bangalore</strong>, where I was supervised by <a href=\"https://scholar.google.com/citations?user=CIZwXAcAAAAJ&hl=en\" target=\"_blank\">Prof. Partha Talukdar</a>."
   ],
-  "interests": ["Pre-training", "RL", "Modular Models", "Efficient Models", "Adaptive LLMs", "MoE", "Model Merging"],
+  "interests": [
+    "Pre-training",
+    "RL",
+    "Modular Models",
+    "Efficient Models",
+    "Adaptive LLMs",
+    "MoE",
+    "Model Merging"
+  ],
   "career": [
-    { "org": "Meta", "role": "Pre-training Research", "date": "Jul '25 \u2013 Feb '26", "icon": "fa-brands fa-meta" },
-    { "org": "Google DeepMind", "role": "Model Merging", "date": "May '24 \u2013 Apr '25", "icon": "fa-brands fa-google" },
-    { "org": "UNC Chapel Hill", "role": "PhD, Computer Science", "date": "Jan '21 \u2013 May '25", "icon": "fa-solid fa-graduation-cap" },
-    { "org": "MSR Redmond", "role": "Research Intern", "date": "May '23 \u2013 Aug '23", "icon": "fa-brands fa-microsoft" },
-    { "org": "Amazon AWS AI Labs", "role": "Research Intern", "date": "May '22 \u2013 Aug '22", "icon": "fa-brands fa-amazon" },
-    { "org": "LinkedIn AI", "role": "Research Engineer", "date": "Jan '20 \u2013 Jan '21", "icon": "fa-brands fa-linkedin" },
-    { "org": "MSR India", "role": "Research Intern", "date": "Feb '19 \u2013 Jun '19", "icon": "fa-brands fa-microsoft" },
-    { "org": "IISc Bangalore", "role": "B.Sc. Mathematics", "date": "Aug '14 \u2013 May '18", "icon": "fa-solid fa-university" }
+    {
+      "org": "Google DeepMind",
+      "role": "Senior Research Scientist, Gemini",
+      "date": "Feb '26 \u2013 Present",
+      "icon": "fa-brands fa-google"
+    },
+    {
+      "org": "Meta",
+      "role": "Pre-training Research",
+      "date": "Jul '25 \u2013 Feb '26",
+      "icon": "fa-brands fa-meta"
+    },
+    {
+      "org": "Google DeepMind",
+      "role": "Model Merging",
+      "date": "May '24 \u2013 Apr '25",
+      "icon": "fa-brands fa-google"
+    },
+    {
+      "org": "UNC Chapel Hill",
+      "role": "PhD, Computer Science",
+      "date": "Jan '21 \u2013 May '25",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "org": "MSR Redmond",
+      "role": "Research Intern",
+      "date": "May '23 \u2013 Aug '23",
+      "icon": "fa-brands fa-microsoft"
+    },
+    {
+      "org": "Amazon AWS AI Labs",
+      "role": "Research Intern",
+      "date": "May '22 \u2013 Aug '22",
+      "icon": "fa-brands fa-amazon"
+    },
+    {
+      "org": "LinkedIn AI",
+      "role": "Research Engineer",
+      "date": "Jan '20 \u2013 Jan '21",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "org": "MSR India",
+      "role": "Research Intern",
+      "date": "Feb '19 \u2013 Jun '19",
+      "icon": "fa-brands fa-microsoft"
+    },
+    {
+      "org": "IISc Bangalore",
+      "role": "B.Sc. Mathematics",
+      "date": "Aug '14 \u2013 May '18",
+      "icon": "fa-solid fa-university"
+    }
   ],
   "socials": [
-    { "name": "GitHub", "url": "https://github.com/prateeky2806", "icon": "fa-brands fa-github", "label": "github.com/prateeky2806" },
-    { "name": "Twitter", "url": "https://twitter.com/prateeky2806", "icon": "fa-brands fa-twitter", "label": "@prateeky2806" },
-    { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=1lXhc0kAAAAJ&hl", "icon": "ai ai-google-scholar", "label": "Prateek Yadav" },
-    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/prateek-yadav-40bb34a8", "icon": "fa-brands fa-linkedin-in", "label": "prateek-yadav" },
-    { "name": "Semantic Scholar", "url": "https://www.semanticscholar.org/author/Prateek-Yadav/46841632", "icon": "ai ai-semantic-scholar", "label": "Prateek Yadav" }
+    {
+      "name": "GitHub",
+      "url": "https://github.com/prateeky2806",
+      "icon": "fa-brands fa-github",
+      "label": "github.com/prateeky2806"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/prateeky2806",
+      "icon": "fa-brands fa-twitter",
+      "label": "@prateeky2806"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=1lXhc0kAAAAJ&hl",
+      "icon": "ai ai-google-scholar",
+      "label": "Prateek Yadav"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prateek-yadav-40bb34a8",
+      "icon": "fa-brands fa-linkedin-in",
+      "label": "prateek-yadav"
+    },
+    {
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/author/Prateek-Yadav/46841632",
+      "icon": "ai ai-semantic-scholar",
+      "label": "Prateek Yadav"
+    }
   ],
-  "photos": ["assets/img/dLdrKJAg_400x400.jpg", "assets/img/PXL_20250630_184959751.MP.jpg"]
+  "photos": [
+    "assets/img/dLdrKJAg_400x400.jpg",
+    "assets/img/PXL_20250630_184959751.MP.jpg"
+  ]
 }
